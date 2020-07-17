@@ -142,8 +142,26 @@ hr {
 
 .textabout {
   display: flex;
-  margin-top: 34px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 13px;
 }
+
+.cards {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100%;
+  }
+
+.cards img {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 15vw;
+  }
