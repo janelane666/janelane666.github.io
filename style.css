@@ -142,8 +142,8 @@ hr {
 
 .textabout {
   display: flex;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 33px;
+  margin-left: 20px;
   margin-right: 10px;
   font-size: 13px;
 }
@@ -164,4 +164,4 @@ hr {
     margin-bottom: 0px;
     margin-top: 0px;
     max-width: 15vw;
-  }
+}
