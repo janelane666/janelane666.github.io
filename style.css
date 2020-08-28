@@ -6,6 +6,8 @@
   --black: #020100;
   --red: #ed1c24;
   --electric-blue: #0000ee;
+  --pink: #f79d84;
+  --green: #52be85;
 }
 
 
@@ -143,10 +145,11 @@ hr {
 .textabout {
   display: flex;
   margin-top: 33px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
   font-size: 13px;
   color: #52be85;
+  text-align: justify;
 }
 
 .cards {
@@ -166,3 +169,47 @@ hr {
     margin-top: 0px;
     max-width: 15vw;
 }
+
+
+.prog {
+  min-width: 100vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.prog-img {
+  min-width: 100vh: 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.contact-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  margin-top: 30px;
+  min-width: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-img {
+  min-width: 100vh: 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img img {
+  margin-top: 100px;
+  height: 150px;
+  border: 2px solid #020100;
+}
+
+
