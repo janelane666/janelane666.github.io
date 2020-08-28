@@ -148,7 +148,7 @@ hr {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 13px;
-  color: #52be85;
+  color: #020100;
   text-align: justify;
 }
 
@@ -212,4 +212,26 @@ hr {
   border: 2px solid #020100;
 }
 
+.strong {
+  color: #f79d84;
+  font-weight: bold;
+}
 
+.keywords {
+  color: #52be85;
+}
+
+.musique-row {
+  margin: 50px;
+}
+
+.musique-col {
+  margin-top: 15px;
+  border: 2px solid #020100;
+}
+
+iframe {
+  /* border: 2px solid #020100;*/
+  height: 150px;
+  width: 150px;
+}
